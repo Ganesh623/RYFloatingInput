@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/RYFloatingInput.build/master.swiftdeps"
+  },
+  "/Users/mac/Desktop/RYFloatingInput/Sources/RYFloatingInput/RYFloatingInput.swift": {
+    "dependencies": "/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/RYFloatingInput.build/RYFloatingInput.d",
+    "object": "/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/RYFloatingInput.build/RYFloatingInput.swift.o",
+    "swiftmodule": "/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/RYFloatingInput.build/RYFloatingInput~partial.swiftmodule",
+    "swift-dependencies": "/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/RYFloatingInput.build/RYFloatingInput.swiftdeps"
+  }
+}

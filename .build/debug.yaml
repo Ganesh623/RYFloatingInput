@@ -1,0 +1,65 @@
+client:
+  name: basic
+tools: {}
+targets:
+  "main": ["/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/RYFloatingInput.swiftmodule","<RYFloatingInput-debug.module>"]
+  "test": ["/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/RYFloatingInput.swiftmodule","/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/RYFloatingInputPackageTests.xctest/Contents/MacOS/RYFloatingInputPackageTests","/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/RYFloatingInputTests.swiftmodule","<RYFloatingInput-debug.module>","<RYFloatingInputPackageTests-debug.test>","<RYFloatingInputTests-debug.module>"]
+  "RYFloatingInput-debug.module": ["/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/RYFloatingInput.swiftmodule","<RYFloatingInput-debug.module>"]
+  "RYFloatingInputPackageTests-debug.test": ["/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/RYFloatingInputPackageTests.xctest/Contents/MacOS/RYFloatingInputPackageTests","<RYFloatingInputPackageTests-debug.test>"]
+  "RYFloatingInputTests-debug.module": ["/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/RYFloatingInputTests.swiftmodule","<RYFloatingInputTests-debug.module>"]
+default: "main"
+commands: 
+  "<C.RYFloatingInput-debug.module>":
+    tool: phony
+    inputs: ["/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/RYFloatingInput.swiftmodule"]
+    outputs: ["<RYFloatingInput-debug.module>"]
+
+  "<C.RYFloatingInputPackageTests-debug.test>":
+    tool: phony
+    inputs: ["/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/RYFloatingInputPackageTests.xctest/Contents/MacOS/RYFloatingInputPackageTests"]
+    outputs: ["<RYFloatingInputPackageTests-debug.test>"]
+
+  "<C.RYFloatingInputTests-debug.module>":
+    tool: phony
+    inputs: ["/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/RYFloatingInputTests.swiftmodule"]
+    outputs: ["<RYFloatingInputTests-debug.module>"]
+
+  "C.RYFloatingInput-debug.module":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "RYFloatingInput"
+    module-output-path: "/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/RYFloatingInput.swiftmodule"
+    inputs: ["/Users/mac/Desktop/RYFloatingInput/Sources/RYFloatingInput/RYFloatingInput.swift"]
+    outputs: ["/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/RYFloatingInput.build/RYFloatingInput.swift.o","/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/RYFloatingInput.swiftmodule"]
+    import-paths: ["/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug"]
+    temps-path: "/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/RYFloatingInput.build"
+    objects: ["/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/RYFloatingInput.build/RYFloatingInput.swift.o"]
+    other-args: ["-target","x86_64-apple-macosx10.10","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/index/store","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Onone","-g","-enable-testing","-j8","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/ModuleCache","-parseable-output","-Xfrontend","-color-diagnostics"]
+    sources: ["/Users/mac/Desktop/RYFloatingInput/Sources/RYFloatingInput/RYFloatingInput.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "8"
+
+  "C.RYFloatingInputPackageTests-debug.test":
+    tool: shell
+    description: "Linking ./.build/x86_64-apple-macosx/debug/RYFloatingInputPackageTests.xctest/Contents/MacOS/RYFloatingInputPackageTests"
+    inputs: ["/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/RYFloatingInput.build/RYFloatingInput.swift.o","/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/RYFloatingInputTests.build/RYFloatingInputTests.swift.o","/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/RYFloatingInputTests.build/XCTestManifests.swift.o"]
+    outputs: ["/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/RYFloatingInputPackageTests.xctest/Contents/MacOS/RYFloatingInputPackageTests"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-L","/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug","-o","/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/RYFloatingInputPackageTests.xctest/Contents/MacOS/RYFloatingInputPackageTests","-module-name","RYFloatingInputPackageTests","-Xlinker","-bundle","@/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/RYFloatingInputPackageTests.product/Objects.LinkFileList","-Xlinker","-rpath","-Xlinker","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx","-target","x86_64-apple-macosx10.10","-L","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib"]
+
+  "C.RYFloatingInputTests-debug.module":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "RYFloatingInputTests"
+    module-output-path: "/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/RYFloatingInputTests.swiftmodule"
+    inputs: ["/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/RYFloatingInput.swiftmodule","/Users/mac/Desktop/RYFloatingInput/Tests/RYFloatingInputTests/RYFloatingInputTests.swift","/Users/mac/Desktop/RYFloatingInput/Tests/RYFloatingInputTests/XCTestManifests.swift"]
+    outputs: ["/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/RYFloatingInputTests.build/RYFloatingInputTests.swift.o","/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/RYFloatingInputTests.build/XCTestManifests.swift.o","/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/RYFloatingInputTests.swiftmodule"]
+    import-paths: ["/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug"]
+    temps-path: "/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/RYFloatingInputTests.build"
+    objects: ["/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/RYFloatingInputTests.build/RYFloatingInputTests.swift.o","/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/RYFloatingInputTests.build/XCTestManifests.swift.o"]
+    other-args: ["-target","x86_64-apple-macosx10.10","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/index/store","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Onone","-g","-enable-testing","-j8","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/ModuleCache","-parseable-output","-Xfrontend","-color-diagnostics"]
+    sources: ["/Users/mac/Desktop/RYFloatingInput/Tests/RYFloatingInputTests/RYFloatingInputTests.swift","/Users/mac/Desktop/RYFloatingInput/Tests/RYFloatingInputTests/XCTestManifests.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "8"
+

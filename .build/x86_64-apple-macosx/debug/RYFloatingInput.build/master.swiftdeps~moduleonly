@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "cf1d29c6332278e11df99cd9e137baa1"
+build_time: [1580710994, 63511000]
+inputs:
+  "/Users/mac/Desktop/RYFloatingInput/Sources/RYFloatingInput/RYFloatingInput.swift": [1580710977, 484490491]

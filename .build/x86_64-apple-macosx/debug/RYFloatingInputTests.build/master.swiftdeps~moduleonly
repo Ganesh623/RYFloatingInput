@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "94d23aa95378fa2a0239a281855ee3ec"
+build_time: [1580711015, 598155000]
+inputs:
+  "/Users/mac/Desktop/RYFloatingInput/Tests/RYFloatingInputTests/RYFloatingInputTests.swift": [1580710977, 485405868]
+  "/Users/mac/Desktop/RYFloatingInput/Tests/RYFloatingInputTests/XCTestManifests.swift": [1580710977, 485652407]

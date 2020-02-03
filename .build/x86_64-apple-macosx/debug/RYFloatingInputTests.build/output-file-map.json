@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/RYFloatingInputTests.build/master.swiftdeps"
+  },
+  "/Users/mac/Desktop/RYFloatingInput/Tests/RYFloatingInputTests/RYFloatingInputTests.swift": {
+    "dependencies": "/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/RYFloatingInputTests.build/RYFloatingInputTests.d",
+    "object": "/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/RYFloatingInputTests.build/RYFloatingInputTests.swift.o",
+    "swiftmodule": "/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/RYFloatingInputTests.build/RYFloatingInputTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/RYFloatingInputTests.build/RYFloatingInputTests.swiftdeps"
+  },
+  "/Users/mac/Desktop/RYFloatingInput/Tests/RYFloatingInputTests/XCTestManifests.swift": {
+    "dependencies": "/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/RYFloatingInputTests.build/XCTestManifests.d",
+    "object": "/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/RYFloatingInputTests.build/XCTestManifests.swift.o",
+    "swiftmodule": "/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/RYFloatingInputTests.build/XCTestManifests~partial.swiftmodule",
+    "swift-dependencies": "/Users/mac/Desktop/RYFloatingInput/.build/x86_64-apple-macosx/debug/RYFloatingInputTests.build/XCTestManifests.swiftdeps"
+  }
+}

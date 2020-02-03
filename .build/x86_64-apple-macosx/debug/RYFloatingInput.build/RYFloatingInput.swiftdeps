@@ -1,0 +1,21 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RYFloatingInput"
+provides-nominal:
+- "15RYFloatingInputAAV"
+provides-member:
+- ["15RYFloatingInputAAV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "RYFloatingInput"
+- "StringLiteralType"
+depends-member:
+- ["15RYFloatingInputAAV", "init"]
+- ["15RYFloatingInputAAV", "text"]
+depends-nominal:
+- "15RYFloatingInputAAV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+interface-hash: "cf2606483597bc842527d8d75f9b9686"
